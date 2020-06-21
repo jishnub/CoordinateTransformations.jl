@@ -124,6 +124,13 @@ transformations:
 1. `PolarFromCartesian()`
 2. `CartesianFromPolar()`
 
+Example: 
+```julia
+julia> p_from_c = PolarFromCartesian();
+julia> p_from_c([1,0]) # the transformation is carried out by an object of the corresponding type
+Polar(r=1.0, θ=0.0 rad)
+```
+
 Three-dimensional coordinates may be converted using these parameterless
 transformations:
 
